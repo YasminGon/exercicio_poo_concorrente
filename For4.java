@@ -1,17 +1,17 @@
-public class For1 extends Thread{
+public class For4 extends Thread{
 
     public void run(){
         //For1 
-        int x=0;
+        int w=0;
         for (int i = 0; i < 50; i++ ){
-            x=x+2;
+            w=w+5;
             System.out.println("Executando For 1");
             try {
                 Thread.sleep(100);
             } catch (Exception ex ) {
                 System.out.println(ex.getMessage());
             }
-            System.out.println("Valor Final de x:"+x);
+            System.out.println("Valor Final de x:"+w);
         }
     }
 }
